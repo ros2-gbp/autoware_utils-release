@@ -1,0 +1,12 @@
+Source: ros-rolling-autoware-utils-visualization
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-auto, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-autoware-cmake, ros-rolling-autoware-lint-common <!nocheck>, ros-rolling-rclcpp, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-autoware-utils-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-rclcpp, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: The autoware_utils_visualization package
