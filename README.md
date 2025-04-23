@@ -1,3 +1,38 @@
+## autoware_utils (rolling) - 1.4.0-1
+
+The packages in the `autoware_utils` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --new-track --rosdistro rolling --track rolling autoware_utils` on `Wed, 23 Apr 2025 07:57:46 -0000`
+
+These packages were released:
+- `autoware_utils`
+- `autoware_utils_debug`
+- `autoware_utils_diagnostics`
+- `autoware_utils_geometry`
+- `autoware_utils_logging`
+- `autoware_utils_math`
+- `autoware_utils_pcl`
+- `autoware_utils_rclcpp`
+- `autoware_utils_system`
+- `autoware_utils_tf`
+- `autoware_utils_uuid`
+- `autoware_utils_visualization`
+
+Version of package(s) in repository `autoware_utils`:
+
+- upstream repository: https://github.com/autowarefoundation/autoware_utils.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.0.0-1`
+- new version: `1.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## autoware_utils (jazzy) - 1.4.0-1
 
 The packages in the `autoware_utils` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --new-track --rosdistro jazzy --track jazzy autoware_utils` on `Wed, 23 Apr 2025 07:51:12 -0000`
