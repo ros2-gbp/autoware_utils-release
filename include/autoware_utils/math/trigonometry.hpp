@@ -1,4 +1,4 @@
-// Copyright 2020 TIER IV, Inc.
+// Copyright 2025 The Autoware Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,20 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "autoware_utils/math/constants.hpp"
+#ifndef AUTOWARE_UTILS__MATH__TRIGONOMETRY_HPP_
+#define AUTOWARE_UTILS__MATH__TRIGONOMETRY_HPP_
 
-#include <gtest/gtest.h>
+// NOLINTBEGIN(build/namespaces, whitespace/line_length)
+// clang-format off
 
-TEST(constants, pi)  // NOLINT for gtest
-{
-  using autoware_utils::pi;
+#include <autoware_utils_math/trigonometry.hpp>
+namespace autoware_utils { using namespace autoware_utils_math; }
 
-  EXPECT_DOUBLE_EQ(pi, 3.14159265358979323846);
-}
+// clang-format on
+// NOLINTEND
 
-TEST(constants, gravity)  // NOLINT for gtest
-{
-  using autoware_utils::gravity;
-
-  EXPECT_DOUBLE_EQ(gravity, 9.80665);
-}
+#endif  // AUTOWARE_UTILS__MATH__TRIGONOMETRY_HPP_
