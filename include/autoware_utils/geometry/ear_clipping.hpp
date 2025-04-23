@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef AUTOWARE_UTILS__ROS__UUID_HELPER_HPP_
-#define AUTOWARE_UTILS__ROS__UUID_HELPER_HPP_
+#ifndef AUTOWARE_UTILS__GEOMETRY__EAR_CLIPPING_HPP_
+#define AUTOWARE_UTILS__GEOMETRY__EAR_CLIPPING_HPP_
 
 // NOLINTBEGIN(build/namespaces, whitespace/line_length)
 // clang-format off
 
-#include <autoware_utils_uuid/uuid_helper.hpp>
-namespace autoware_utils { using namespace autoware_utils_uuid; }
+#include <autoware_utils_geometry/ear_clipping.hpp>
+namespace autoware_utils { using namespace autoware_utils_geometry; }
 
 // clang-format on
 // NOLINTEND
 
-#endif  // AUTOWARE_UTILS__ROS__UUID_HELPER_HPP_
+#endif  // AUTOWARE_UTILS__GEOMETRY__EAR_CLIPPING_HPP_
