@@ -1,4 +1,4 @@
-// Copyright 2020 TIER IV, Inc.
+// Copyright 2025 The Autoware Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,4 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "autoware_utils/autoware_utils.hpp"
+#ifndef AUTOWARE_UTILS__ROS__PARAMETER_HPP_
+#define AUTOWARE_UTILS__ROS__PARAMETER_HPP_
+
+// NOLINTBEGIN(build/namespaces, whitespace/line_length)
+// clang-format off
+
+#include <autoware_utils_rclcpp/parameter.hpp>
+namespace autoware_utils { using namespace autoware_utils_rclcpp; }
+
+// clang-format on
+// NOLINTEND
+
+#endif  // AUTOWARE_UTILS__ROS__PARAMETER_HPP_
