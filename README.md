@@ -1,3 +1,38 @@
+## autoware_utils (jazzy) - 1.4.1-1
+
+The packages in the `autoware_utils` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy autoware_utils` on `Thu, 15 May 2025 12:27:59 -0000`
+
+These packages were released:
+- `autoware_utils`
+- `autoware_utils_debug`
+- `autoware_utils_diagnostics`
+- `autoware_utils_geometry`
+- `autoware_utils_logging`
+- `autoware_utils_math`
+- `autoware_utils_pcl`
+- `autoware_utils_rclcpp`
+- `autoware_utils_system`
+- `autoware_utils_tf`
+- `autoware_utils_uuid`
+- `autoware_utils_visualization`
+
+Version of package(s) in repository `autoware_utils`:
+
+- upstream repository: https://github.com/autowarefoundation/autoware_utils.git
+- release repository: https://github.com/ros2-gbp/autoware_utils-release.git
+- rosdistro version: `1.4.0-1`
+- old version: `1.4.0-1`
+- new version: `1.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## autoware_utils (humble) - 1.4.1-1
 
 The packages in the `autoware_utils` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble autoware_utils` on `Thu, 15 May 2025 12:22:32 -0000`
