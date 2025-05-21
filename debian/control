@@ -1,0 +1,12 @@
+Source: ros-rolling-autoware-utils-debug
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-ros <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-autoware-cmake, ros-rolling-autoware-internal-debug-msgs, ros-rolling-autoware-internal-msgs, ros-rolling-autoware-lint-common <!nocheck>, ros-rolling-autoware-utils-system, ros-rolling-diagnostic-msgs, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-autoware-utils-debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-autoware-internal-debug-msgs, ros-rolling-autoware-internal-msgs, ros-rolling-autoware-utils-system, ros-rolling-diagnostic-msgs, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: The autoware_utils_debug package
