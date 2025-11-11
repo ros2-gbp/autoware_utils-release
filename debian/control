@@ -1,0 +1,12 @@
+Source: ros-rolling-autoware-utils
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-auto, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-autoware-cmake, ros-rolling-autoware-internal-debug-msgs, ros-rolling-autoware-internal-msgs, ros-rolling-autoware-internal-planning-msgs, ros-rolling-autoware-lint-common <!nocheck>, ros-rolling-autoware-perception-msgs, ros-rolling-autoware-planning-msgs, ros-rolling-autoware-utils-debug, ros-rolling-autoware-utils-diagnostics, ros-rolling-autoware-utils-geometry, ros-rolling-autoware-utils-logging, ros-rolling-autoware-utils-math, ros-rolling-autoware-utils-pcl, ros-rolling-autoware-utils-rclcpp, ros-rolling-autoware-utils-system, ros-rolling-autoware-utils-tf, ros-rolling-autoware-utils-uuid, ros-rolling-autoware-utils-visualization, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-autoware-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-autoware-internal-debug-msgs, ros-rolling-autoware-internal-msgs, ros-rolling-autoware-internal-planning-msgs, ros-rolling-autoware-perception-msgs, ros-rolling-autoware-planning-msgs, ros-rolling-autoware-utils-debug, ros-rolling-autoware-utils-diagnostics, ros-rolling-autoware-utils-geometry, ros-rolling-autoware-utils-logging, ros-rolling-autoware-utils-math, ros-rolling-autoware-utils-pcl, ros-rolling-autoware-utils-rclcpp, ros-rolling-autoware-utils-system, ros-rolling-autoware-utils-tf, ros-rolling-autoware-utils-uuid, ros-rolling-autoware-utils-visualization, ros-rolling-ros-workspace
+Description: The autoware_utils package
