@@ -1,0 +1,12 @@
+Source: ros-rolling-autoware-utils-tf
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-ros <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-autoware-cmake, ros-rolling-autoware-lint-common <!nocheck>, ros-rolling-autoware-utils-geometry, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-tf2-ros, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-autoware-utils-tf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-autoware-utils-geometry, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-tf2-ros, ros-rolling-ros-workspace
+Description: The autoware_utils_tf package
