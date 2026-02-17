@@ -1,3 +1,38 @@
+## autoware_utils (humble) - 1.5.0-1
+
+The packages in the `autoware_utils` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble autoware_utils` on `Tue, 17 Feb 2026 14:16:18 -0000`
+
+These packages were released:
+- `autoware_utils`
+- `autoware_utils_debug`
+- `autoware_utils_diagnostics`
+- `autoware_utils_geometry`
+- `autoware_utils_logging`
+- `autoware_utils_math`
+- `autoware_utils_pcl`
+- `autoware_utils_rclcpp`
+- `autoware_utils_system`
+- `autoware_utils_tf`
+- `autoware_utils_uuid`
+- `autoware_utils_visualization`
+
+Version of package(s) in repository `autoware_utils`:
+
+- upstream repository: https://github.com/autowarefoundation/autoware_utils.git
+- release repository: https://github.com/ros2-gbp/autoware_utils-release.git
+- rosdistro version: `1.4.2-2`
+- old version: `1.4.2-2`
+- new version: `1.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## autoware_utils (rolling) - 1.4.2-2
 
 The packages in the `autoware_utils` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling autoware_utils -y` on `Tue, 11 Nov 2025 12:06:42 -0000`
