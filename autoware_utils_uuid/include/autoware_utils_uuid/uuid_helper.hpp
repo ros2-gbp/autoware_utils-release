@@ -20,7 +20,6 @@
 #include <boost/uuid/uuid.hpp>
 
 #include <algorithm>
-#include <cstdint>
 #include <random>
 #include <string>
 
