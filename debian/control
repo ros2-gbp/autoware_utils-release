@@ -1,0 +1,12 @@
+Source: ros-lyrical-autoware-utils-pcl
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-auto, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-autoware-cmake, ros-lyrical-autoware-lint-common <!nocheck>, ros-lyrical-autoware-utils-tf, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/autoware_utils_pcl/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-autoware-utils-pcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-autoware-utils-tf, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-ros-workspace
+Description: The autoware_utils_pcl package
