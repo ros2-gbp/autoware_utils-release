@@ -1,0 +1,12 @@
+Source: ros-lyrical-autoware-utils
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-auto, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-autoware-cmake, ros-lyrical-autoware-internal-debug-msgs, ros-lyrical-autoware-internal-msgs, ros-lyrical-autoware-internal-planning-msgs, ros-lyrical-autoware-lint-common <!nocheck>, ros-lyrical-autoware-perception-msgs, ros-lyrical-autoware-planning-msgs, ros-lyrical-autoware-utils-debug, ros-lyrical-autoware-utils-diagnostics, ros-lyrical-autoware-utils-geometry, ros-lyrical-autoware-utils-logging, ros-lyrical-autoware-utils-math, ros-lyrical-autoware-utils-pcl, ros-lyrical-autoware-utils-rclcpp, ros-lyrical-autoware-utils-system, ros-lyrical-autoware-utils-tf, ros-lyrical-autoware-utils-uuid, ros-lyrical-autoware-utils-visualization, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/autoware_utils/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-autoware-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-autoware-internal-debug-msgs, ros-lyrical-autoware-internal-msgs, ros-lyrical-autoware-internal-planning-msgs, ros-lyrical-autoware-perception-msgs, ros-lyrical-autoware-planning-msgs, ros-lyrical-autoware-utils-debug, ros-lyrical-autoware-utils-diagnostics, ros-lyrical-autoware-utils-geometry, ros-lyrical-autoware-utils-logging, ros-lyrical-autoware-utils-math, ros-lyrical-autoware-utils-pcl, ros-lyrical-autoware-utils-rclcpp, ros-lyrical-autoware-utils-system, ros-lyrical-autoware-utils-tf, ros-lyrical-autoware-utils-uuid, ros-lyrical-autoware-utils-visualization, ros-lyrical-ros-workspace
+Description: The autoware_utils package
