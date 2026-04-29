@@ -1,0 +1,12 @@
+Source: ros-lyrical-autoware-utils-geometry
+Section: misc
+Priority: optional
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Build-Depends: debhelper (>= 9.0.0), libboost-system-dev, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-autoware-cmake, ros-lyrical-autoware-internal-planning-msgs, ros-lyrical-autoware-lint-common <!nocheck>, ros-lyrical-autoware-utils-math, ros-lyrical-autoware-utils-system <!nocheck>, ros-lyrical-tf2, ros-lyrical-tf2-eigen, ros-lyrical-tf2-geometry-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/autoware_utils_geometry/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-autoware-utils-geometry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-system-dev, ros-lyrical-autoware-internal-planning-msgs, ros-lyrical-autoware-utils-math, ros-lyrical-tf2, ros-lyrical-tf2-eigen, ros-lyrical-tf2-geometry-msgs, ros-lyrical-ros-workspace
+Description: The autoware_utils_geometry package
