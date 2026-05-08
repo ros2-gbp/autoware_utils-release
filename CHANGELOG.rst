@@ -2,6 +2,23 @@
 Changelog for package autoware_utils_visualization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.2 (2026-05-01)
+------------------
+* fix: to be consistent version in all package.xml(s)
+* Contributors: github-actions
+
+1.7.0 (2026-03-12)
+------------------
+
+1.6.0 (2026-02-20)
+------------------
+
+1.5.0 (2025-12-30)
+------------------
+* refactor: set constant value for marker lifetime (`#76 <https://github.com/autowarefoundation/autoware_utils/issues/76>`_)
+  refactor: set constant value for marker lifetime, and use it in create_default_marker
+* Contributors: Sarun MUKDAPITAK
+
 1.4.2 (2025-05-21)
 ------------------
 
