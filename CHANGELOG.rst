@@ -2,6 +2,29 @@
 Changelog for package autoware_utils_diagnostics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.2 (2026-05-01)
+------------------
+* fix: to be consistent version in all package.xml(s)
+* Contributors: github-actions
+
+1.7.0 (2026-03-12)
+------------------
+
+1.6.0 (2026-02-20)
+------------------
+
+1.5.0 (2025-12-30)
+------------------
+* feat: add `timeout_diagnostics` (`#84 <https://github.com/autowarefoundation/autoware_utils/issues/84>`_)
+  * add: timeout_diagnostics (see below)
+  * This changes are copied from `autoware_control_command_gate`
+  - https://github.com/autowarefoundation/autoware_universe/tree/01ff80101dfc78a0288f063e975e6e16ac042bf7/control/autoware_control_command_gate
+  * We are going to use `timeout_diagnostics` via `autoware_utils` not `autoware_universe` in near future for adaptation to new ADAPI (>= 1.9.0)
+  * style(pre-commit): autofix
+  ---------
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* Contributors: Junya Sasaki
+
 1.4.2 (2025-05-21)
 ------------------
 
