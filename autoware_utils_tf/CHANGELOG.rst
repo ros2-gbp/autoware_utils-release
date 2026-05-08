@@ -2,6 +2,27 @@
 Changelog for package autoware_utils_tf
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.2 (2026-05-01)
+------------------
+* fix: to be consistent version in all package.xml(s)
+* fix(autoware_utils_tf): update tf2 ros header (`#90 <https://github.com/autowarefoundation/autoware_utils/issues/90>`_)
+  * fix(autoware_utils_tf): update tf2 ros header
+  * style(pre-commit): autofix
+  ---------
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* Contributors: Daisuke Nishimatsu, github-actions
+
+1.7.0 (2026-03-12)
+------------------
+
+1.6.0 (2026-02-20)
+------------------
+
+1.5.0 (2025-12-30)
+------------------
+* Replace ament_target_dependencies with target_link_libraries (`#69 <https://github.com/autowarefoundation/autoware_utils/issues/69>`_)
+* Contributors: Alejandro Hernández Cordero
+
 1.4.2 (2025-05-21)
 ------------------
 
