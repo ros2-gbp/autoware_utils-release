@@ -1,1 +1,1 @@
-{"base": "8e7525d86dea", "parent": "debian/rolling/autoware_utils_rclcpp", "previous": "cee82cadd9d7", "trim": "", "trimbase": ""}
+{"base": "f9dc9368", "parent": "debian/rolling/autoware_utils_rclcpp", "previous": "a7237422", "trim": "", "trimbase": ""}
