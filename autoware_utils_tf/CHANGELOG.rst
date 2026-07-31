@@ -2,6 +2,24 @@
 Changelog for package autoware_utils_tf
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.0 (2026-06-29)
+------------------
+* fix(autoware_utils_tf): delete to call SetCreateTimer in tf2_ros path (`#114 <https://github.com/autowarefoundation/autoware_utils/issues/114>`_)
+  delete to call CreateTimerInterface
+* Contributors: Koichi Imai
+
+1.8.0 (2026-06-10)
+------------------
+* feat(transform_listener): templatize `TransformListener` for both `rclcpp::Node` and `agnocast_wrapper::Node` (`#109 <https://github.com/autowarefoundation/autoware_utils/issues/109>`_)
+  * templatize buffer
+  * define another class
+  * fix to use shared_ptr
+  * templatize TransformListener
+  * style(pre-commit): autofix
+  ---------
+  Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+* Contributors: Koichi Imai
+
 1.7.2 (2026-05-01)
 ------------------
 * fix: to be consistent version in all package.xml(s)
